@@ -50,6 +50,7 @@ const Rapidscat = () => {
             </div>
           </div>
         </div>
+        <br />
       </section>
     </>
   );

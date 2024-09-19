@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { HiLocationMarker } from "react-icons/hi";
-import { MdCall, MdMessage } from "react-icons/md";
+// import { HiLocationMarker } from "react-icons/hi";
+// import { MdCall, MdMessage } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
 
         <div className="hidden sm:block">
-          <div className="flex justify-between items-center text-center ">
+          <div className="flex justify-between items-center text-center ml-3 mr-3">
             <span className="text-sm text-gray-400">
               &copy; copyright 2024 | 3CS
             </span>

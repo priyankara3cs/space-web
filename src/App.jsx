@@ -3,10 +3,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero.jsx";
 import HeroCard from "./components/HeroCard/HeroCard.jsx";
 import BgVideo from "./assets/41753879.webm";
-import wave from "./assets/wave Gif.gif";
-import Rapidscat from "./components/Rapidscat/Rapidscat.jsx";
-import Satelite from "./components/Satelite/Satelite.jsx";
-import Footer from "./components/Footer/Footer.jsx";
+import WDS from "./components/WDS/wds.jsx";
+import SEO from "./components/SEO/seo.jsx";
 import Footer5 from "./components/Footer/Footer5.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -33,9 +31,8 @@ const App = () => {
         <Hero />
       </div>
       <HeroCard />
-      <Rapidscat />
-      <Satelite />
-      {/* <Footer /> */}
+      <WDS />
+      <SEO />
       <Footer5 />
     </div>
   );
